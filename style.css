@@ -1,0 +1,125 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+.imageholder {
+	text-align: center;
+	clear: right;
+	margin: 8px;
+}
+
+section {margin: 90px auto;}
+
+form {
+	display: block;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	font-size: 1.5em;
+	padding: 0 10px;
+	width: 550px;
+	height: 2em;
+	outline: none;
+	border: 1px solid rgb(217,217,217);
+}
+
+input[type="text"]:focus {border: 1px solid rgb(66,133,244);}
+
+.searchbox-holder {
+	text-align: center;
+	margin: 5px;
+}
+
+input[type="submit"] {
+	width: 11em;
+	border: none;
+	color: rgb(117,117,117);
+	font-weight: bold;
+	background-color: rgb(244,244,244);
+	padding: 10px 14px;
+	font-size: 1em;
+	margin: 8px 3px;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid gray;
+	color: black;
+}
+
+.buttonholder {
+	text-align: center;
+	margin: 15px;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 4px 24px;
+}
+
+.googlegrid {
+	margin: 12px 8px 0 0;
+	opacity: 0.55;
+}
+
+.googlegrid a:active {opacity: 1;}
+
+nav button {
+	height: 32px;
+	width: 60px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {text-decoration: underline;}
+
+button {
+	background-color: rgb(60,132,237);
+	color: white;
+	border-radius: 0;
+	border: none;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(242,242,242);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid rgb(228,228,228);
+}
+
+.left, .left ul {float: left;}
+
+.right, .right ul {float: right;}
+
+.left, .right {padding: 5px 10px;}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {display: inline-block;}
+
+li a {
+	display: block;
+	color: rgb(102,102,102);
+	text-align: center;
+	padding: 8px 16px;
+}
+
+li a:hover {text-decoration: underline;}
